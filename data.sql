@@ -1,0 +1,7 @@
+CREATE DATABASE  `db_image` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+
+CREATE TABLE  `db_image`.`images` (
+`id_image` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`image_name` VARCHAR( 70 ) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+`views_count` INT( 10 ) NOT NULL DEFAULT  '0'
+);
